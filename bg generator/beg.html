@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Color Generator</title>
+  <link rel="stylesheet" href="beeg.css">
+</head>
+
+<body id="body">
+  <h1 id="heading">Welcome to Background Color Generator</h1>
+  <div>
+    <label for="colorInput" id="label">Enter a color name:</label>
+    <input type="text" id="colorInput" placeholder="e.g., red">
+    <button onclick="changeColor()">Set Color</button>
+  </div>
+  <div class="download-btn">
+    <a href="#" download="color.png" id="btn">Download Background</a>
+  </div>
+  <canvas id="canvas" style="display: none;"></canvas>
+
+  <!-- Java Script files -->
+  <script src="begg.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.2/tinycolor.min.js"></script>
+</body>
+</html>
